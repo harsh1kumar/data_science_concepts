@@ -4,7 +4,7 @@
 
 [Statistical Tests](resources/inferential_statistics_frequentist/statistical_tests.md)
 
-## **Confidence Interval/Margin of error**
+## Confidence Interval/Margin of error
 
 [(Video)](https://www.youtube.com/watch?v=OwPSuHXmiPw&list=PL1328115D3D8A2566&index=32)
 
@@ -62,7 +62,7 @@ p-value has 3 parts:
 
 NOTE: A small p-value doesn’t mean that the difference between two groups is large. Effect size can be small or large irrespective of p-value
 
-### T**ype I and Type II errors**
+### Type I and Type II errors
 
 [(Video)](https://www.youtube.com/watch?v=EowIec7Y8HM&list=PL1328115D3D8A2566&index=40)
 

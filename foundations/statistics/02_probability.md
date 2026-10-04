@@ -1,16 +1,5 @@
 # Probability
 
-### **Permutations**
-
-Permutations refer to the arrangement of objects in a specific order. The key characteristic of permutations is that **order matters**.
-
-If you have a set of `n` distinct objects and you want to arrange `r` of them, the number of permutations is given by:
-
-$$
-P(n,r) = \frac{n!}{(n - r)!}
-
-$$
-
 ### **Combinations**
 
 Combinations refer to the selection of objects from a set where **order does not matter**.
@@ -21,6 +10,17 @@ $$
 C(n,r)= \frac{n!}{r!(n - r)!}
 $$
 
+### **Permutations**
+
+Permutations refer to the arrangement of objects in a specific order. The key characteristic of permutations is that **order matters**. Number of ways to arrange n objects is $n!$.
+
+If you have a set of `n` distinct objects and you want to choose `r` of them and arrange them, total number of permutations is given by:
+
+$$
+P(n,r) = \frac{n!}{(n - r)!} = C(n,r) \times r!
+
+$$
+
 ### Conditional Probability
 
 $$
@@ -29,7 +29,7 @@ $$
 
 **Independence**
 
-- Two events A and Bare independent if the occurrence of one does not affect the occurrence of the other
+- Two events A and B are independent if the occurrence of one does not affect the occurrence of the other
 - If they are independent,  $P(A∣B)=P(A)$  and $P(A \cap B) = P(A) \cdot P(B)$
 
 ### Probability vs Likelihood
@@ -52,7 +52,7 @@ Likelihood: *Given the data I observed, how plausible is a particular parameter 
 ### Odds
 
 $$
-odds = \frac{p}{1-p}
+odds = \frac{P(event \space happens)}{P(event \space doesn't \space happen)} = \frac{p}{1-p}
 $$
 
 - Odds can be between 0 and infinity
@@ -64,6 +64,4 @@ $$
     
 - `log(odds)` makes this symmetrical around 0
 
-![Log odds vs probability](resources/probability/log_odds_vs_probability.png)
-
-Log Odds vs Probability
+- ![Log odds vs probability](resources/probability/log_odds_vs_probability.png)

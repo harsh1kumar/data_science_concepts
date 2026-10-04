@@ -2,13 +2,11 @@
 
 ### General Ideas
 
-[(Starting video in the playlist)](https://www.youtube.com/watch?v=Fvi9A_tEmXQ&list=PL1328115D3D8A2566&index=8)
+- [Vido Playlist](https://www.youtube.com/watch?v=Fvi9A_tEmXQ&list=PL1328115D3D8A2566&index=8)
+- **Probability distribution function**: Discrete random variable
+- **Probability density function**: Continuous random variable
 
-**Probability distribution** function  → Discrete random variable
-
-**Probability density** function → Continuous random variable
-
-### **Bernoulli distribution**
+### Bernoulli distribution
 
 A discrete probability distribution that represents a random variable that takes on one of two possible values (1 and 0), with a probability `p` of being 1 and probability `q` of being 0.
 
@@ -21,16 +19,11 @@ $$
 
 ![Bernoulli distribution](resources/probability_distribution_and_random_variable/bernoulli_distribution.png)
 
-### **Binomial Distribution**
+### Binomial Distribution
+[Video](https://www.youtube.com/watch?v=vKNpQ_KTXvE&list=PL1328115D3D8A2566&index=11)
 
-[(Video)](https://www.youtube.com/watch?v=vKNpQ_KTXvE&list=PL1328115D3D8A2566&index=11)
+> ⚡ P(`x` success in `n` trials)
 
-<aside>
-⚡
-
-P(`x` success in `n` trials)
-
-</aside>
 
 Discrete distribution where we count only 2 states represented as 1 (for a success) or 0 (for a failure). Binomial distribution represents the probability for `x` successes in `n` trials, given a success probability `p` for each trial.
 
@@ -49,12 +42,7 @@ $$
 
 ### Geometric Distribution
 
-<aside>
-⚡
-
-P(1st success in `k` trials)
-
-</aside>
+> ⚡ P(1st success in `k` trials)
 
 A probability distribution that describes the number of trials required to achieve the first success in a sequence of independent and identically distributed Bernoulli trials. It is often used in situations where you repeatedly perform a binary experiment (success or failure) until you achieve the first success.
 
@@ -75,14 +63,9 @@ The probability of achieving the first success in the next trial does not depend
 
 ![Geometric distribution PMF](resources/probability_distribution_and_random_variable/geometric_pmf.png)
 
-### **Poisson Distribution**
+### Poisson Distribution
 
-<aside>
-⚡
-
-P(`x` success in `n` time or space)
-
-</aside>
+> ⚡ P(`x` success in `n` time or space)
 
 A discrete probability distribution which gives the probability of an event happening a certain number of times (k) within a given interval of time or space. The poisson distribution has only one parameter, λ (lambda), which is the mean number of events
 
@@ -105,12 +88,7 @@ $$
 
 ### Exponential Distribution
 
-<aside>
-⚡
-
-P(`x` time between events in a Poisson process)
-
-</aside>
+> ⚡ P(`x` time between events in a Poisson process)
 
 The exponential distribution is a probability distribution that describes the time between events in a Poisson process, where events occur continuously and independently at a constant average rate.
 
@@ -126,7 +104,7 @@ where *λ* is the rate parameter (also known as the rate of occurrence or the in
 
 ![Exponential distribution PDF](resources/probability_distribution_and_random_variable/exponential_distribution_pdf.png)
 
-### **Beta Distribution**
+### Beta Distribution
 
 Beta distribution is a continuous probability distribution defined on the interval [0,1] in terms of two positive parameters, denoted by *alpha* (*α*) and *beta* (*β*)
 
@@ -147,7 +125,7 @@ $$
 - **Bayesian Updating:** Beta distribution is the **conjugate prior** for the Bernoulli, Binomial, and Geometric distributions. If a proportion follows a Binomial likelihood, the posterior follows another Beta distribution.
 - **A/B Testing:** Beta distributions are used in **Thompson Sampling**, a method for deciding between different treatments in multi-arm bandit experiments.
 
-### **Normal Distribution**
+### Normal Distribution
 
 It is related to binomial distribution. Normal distribution is for continuous random variable. If number of tries (n) of a binomial distribution approaches large values, binomial distribution approaches normal distribution
 
@@ -174,9 +152,9 @@ $$
 z = \frac{X - \mu}{\sigma}
 $$
 
-### **Central Limit Theorem**
+### Central Limit Theorem
 
-[(Video)](https://www.youtube.com/watch?v=JNm3M9cqWyc&list=PL1328115D3D8A2566&index=25)
+[Video](https://www.youtube.com/watch?v=JNm3M9cqWyc&list=PL1328115D3D8A2566&index=25)
 
 Distribution of sample means of any population distribution (not necessarily normal) is normally distributed
 
@@ -185,9 +163,9 @@ Distribution of sample means of any population distribution (not necessarily nor
 - This implies that as sample size increase, the standard deviation reduces
 - Standard deviation of the sample means is also called **Standard error of the mean**
 
-### **Chi-square distribution**
+### Chi-square distribution
 
-([video](https://www.youtube.com/watch?v=dXB3cUGnaxQ&list=PL1328115D3D8A2566&index=61))
+[Video](https://www.youtube.com/watch?v=dXB3cUGnaxQ&list=PL1328115D3D8A2566&index=61)
 
 Chi-square distribution with k degrees of freedom is the distribution of a sum of the squares of k independent standard normal random variables
 

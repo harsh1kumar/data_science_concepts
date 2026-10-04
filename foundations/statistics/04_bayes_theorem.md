@@ -18,7 +18,7 @@ $$
 - P(H|E) is the posterior probability
 - P(H|E) and P(E|H) are called likelihoods
 
-### **Naive Bayes**
+### Naive Bayes
 
 Video: [Naive Bayes, Clearly Explained!!!](https://www.youtube.com/watch?v=O2L2Uv9pdDA)
 
@@ -38,7 +38,7 @@ Because it doesn’t take into account the order of words by assuming that each 
 
 `P(Hello, World | Spam) = P(Hello | Spam) P(World | Spam)`
 
-### **Gaussian Naive Bayes**
+### Gaussian Naive Bayes
 
 Video: [Gaussian Naive Bayes, Clearly Explained!!!](https://www.youtube.com/watch?v=H3EjCKtlVog)
 
