@@ -7,7 +7,7 @@ link to one note per concept.
 
 ## Foundations
 
-- [Statistics](Data%20Science%20Learning/Statistics%20665f2cf2875b4f6dbfb91ec40d84da69.md)
+- [Statistics](foundations/statistics/README.md)
 - [Causal Inference](Data%20Science%20Learning/Causal%20Inference%201a203f4257c64f72a2a9b909f3a66f20.md)
 
 ## Modeling
