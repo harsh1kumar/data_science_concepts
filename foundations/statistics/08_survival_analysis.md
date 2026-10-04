@@ -26,7 +26,7 @@ $$
     - $d_i$ = Number of events (failures) at time $t_i$
     - $n_i$ = Number of individuals at risk just before $t_i$
 
-![In this image, m is number of failure events, q is the number of censored events and n is the number of individuals at risk just before time t](Survival%20Analysis/image.png)
+![In this image, m is number of failure events, q is the number of censored events and n is the number of individuals at risk just before time t](resources/survival_analysis/kaplan_meier_curve.png)
 
 In this image, m is number of failure events, q is the number of censored events and n is the number of individuals at risk just before time t
 

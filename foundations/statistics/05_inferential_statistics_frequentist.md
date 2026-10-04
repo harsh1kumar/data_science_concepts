@@ -2,7 +2,7 @@
 
 ## Statistical Tests
 
-[Statistical Tests](Inferential%20statistics%20-%20Frequentist/Statistical%20Tests%2036534490aac04041971d447a2b3ffd2e.md)
+[Statistical Tests](resources/inferential_statistics_frequentist/statistical_tests.md)
 
 ## **Confidence Interval/Margin of error**
 

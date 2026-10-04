@@ -60,10 +60,10 @@ $$
     - odds are less than 1 means less probability of winning is less than 50%
     - odds are greater than 1 means less probability of winning is greater than 50%
     
-    ![odds_r1.gif](Probability/odds_r1.gif)
+    ![Odds](resources/probability/odds_r1.gif)
     
 - `log(odds)` makes this symmetrical around 0
 
-![Log Odds vs Probability](Probability/1__63bRK2lNF4adjwCNYQMzQ.png)
+![Log odds vs probability](resources/probability/log_odds_vs_probability.png)
 
 Log Odds vs Probability

@@ -19,7 +19,7 @@ E(X) = p \\
 \sigma^{2} = pq = p(1-p)
 $$
 
-![Bernoulli-Distribution-copy.webp](Probability%20Distribution%20and%20Random%20Variable/b454455f-6145-4136-87c2-8009606063f3.png)
+![Bernoulli distribution](resources/probability_distribution_and_random_variable/bernoulli_distribution.png)
 
 ### **Binomial Distribution**
 
@@ -45,7 +45,7 @@ E(X) = np \\
 \sigma^2=np(1−p)
 $$
 
-![Binomial_distribution_pmf.svg.png](Probability%20Distribution%20and%20Random%20Variable/Binomial_distribution_pmf.svg.png)
+![Binomial distribution PMF](resources/probability_distribution_and_random_variable/binomial_distribution_pmf.png)
 
 ### Geometric Distribution
 
@@ -73,7 +73,7 @@ where
 
 The probability of achieving the first success in the next trial does not depend on the number of trials already performed
 
-![Geometric_pmf.svg.png](Probability%20Distribution%20and%20Random%20Variable/abeb5bbb-f6c7-4330-b166-c79e77707e38.png)
+![Geometric distribution PMF](resources/probability_distribution_and_random_variable/geometric_pmf.png)
 
 ### **Poisson Distribution**
 
@@ -101,7 +101,7 @@ Variance = \lambda \\
 P(X=x) = \frac{e^{-\lambda}\lambda^{x}}{x!}
 $$
 
-![Poisson_pmf.svg.png](Probability%20Distribution%20and%20Random%20Variable/Poisson_pmf.svg.png)
+![Poisson distribution PMF](resources/probability_distribution_and_random_variable/poisson_pmf.png)
 
 ### Exponential Distribution
 
@@ -124,7 +124,7 @@ where *λ* is the rate parameter (also known as the rate of occurrence or the in
 
 **Memorylessness Property:** The probability of an event occurring in the next instant is the same, regardless of how much time has already elapsed.
 
-![Exponential_distribution_pdf_-_public_domain.svg.png](Probability%20Distribution%20and%20Random%20Variable/Exponential_distribution_pdf_-_public_domain.svg.png)
+![Exponential distribution PDF](resources/probability_distribution_and_random_variable/exponential_distribution_pdf.png)
 
 ### **Beta Distribution**
 
@@ -162,7 +162,7 @@ $$
     - Skewed to the right, skew is positive → Tail towards +ve direction
     - Skewed to the left, skew is negative → Tail towards -ve direction
 
-![Untitled](Probability%20Distribution%20and%20Random%20Variable/Untitled.png)
+![Skewness](resources/probability_distribution_and_random_variable/skewness.png)
 
 - **Kurtosis**: Measure of the "peakedness" of a probability distribution
     - Standard normal distribution has a kurtosis of 3
