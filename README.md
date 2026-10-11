@@ -12,10 +12,9 @@ link to one note per concept.
 
 ## Modeling
 
-- [Machine Learning](Data%20Science%20Learning/Machine%20Learning%20d6436014981f4168abe73a7c12ec1364.md)
-- [Deep Learning](Data%20Science%20Learning/Deep%20Learning%20eafe567ae4734ba6bfb707f977428958.md)
-
-- [Large Language Models](Data%20Science%20Learning/Large%20Language%20Models%20b13aebc339b34ec397f4230f31e20e83.md)
+- [Machine Learning](modeling/ml.md)
+- [Deep Learning](modeling/deep_learning.md)
+- [Large Language Models](modeling/llm.md)
 
 ## Practical
 
