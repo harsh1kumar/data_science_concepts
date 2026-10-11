@@ -8,7 +8,7 @@ link to one note per concept.
 ## Foundations
 
 - [Statistics](foundations/statistics/README.md)
-- [Causal Inference](Data%20Science%20Learning/Causal%20Inference%201a203f4257c64f72a2a9b909f3a66f20.md)
+- [Causal Inference](foundations/causal_inference/README.md)
 
 ## Modeling
 
@@ -19,8 +19,8 @@ link to one note per concept.
 
 ## Practical
 
-- [SQL](Data%20Science%20Learning/SQL%201096dc6d1b138032a17de6a07c5b6553.md)
-- [Tools](Data%20Science%20Learning/Tools%205ff153d83af246baa5e2f79d827de69b.md)
+- [SQL](practical/sql.md)
+- [Tools](practical/tools.md)
 
 ## Other
 
