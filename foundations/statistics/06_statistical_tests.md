@@ -1,13 +1,13 @@
 # Statistical Tests
 
-### Parametric and non-parametric tests
+## Parametric and non-parametric tests
 
 1. **Assumptions:** Parametric tests have stricter assumptions about the population distribution, while non-parametric tests are more flexible and make fewer distributional assumptions.
 2. **Type of Data:** Parametric tests are often used for interval or ratio data, whereas non-parametric tests can handle a wider range of data types, including ordinal data.
 3. **Efficiency:** Parametric tests can be more powerful when assumptions are met, but non-parametric tests are more robust in the presence of violations of assumptions.
 4. **Examples:** t-tests and ANOVA are examples of parametric tests, while Mann-Whitney U test and Wilcoxon signed-rank test are examples of non-parametric tests.
 
-### z**-test**
+## z-test
 
 **When to use**: Used to compare means between two groups, means when the population standard deviation is known
 
@@ -24,7 +24,7 @@ The Ho is the null hypothesis and so always contains the equal sign, as it is th
 1. One tailed
 2. Two tailed
 
-### **t-test**
+## t-test
 
 [(Video1](https://www.youtube.com/watch?v=K4KDLWENXm0&list=PL1328115D3D8A2566&index=35), [Video2)](https://www.youtube.com/watch?v=5ABpqVSx33I&list=PL1328115D3D8A2566&index=38)
 
@@ -52,7 +52,7 @@ $$
 
 Paired T-test has a different formula for t-statistic and involves calculating the difference between each individual sample in the two groups. For example, it would mean finding the difference between pre and post test scores of each student and then taking mean of differences
 
-### Chi-square Test
+## Chi-square Test
 
 ([Video1](https://www.youtube.com/watch?v=dXB3cUGnaxQ&list=PL1328115D3D8A2566&index=61))
 
@@ -84,7 +84,7 @@ $$
 1. **Chi-Square Test for Independence**: Tests whether there is a significant association between two categorical variables in a contingency table.
 2. **Chi-Square Goodness-of-Fit Test**: Tests whether observed frequencies match expected frequencies for a categorical variable.
 
-### F-test
+## F-test
 
 **When to use**: Used to compare the variance of two groups
 
@@ -95,7 +95,7 @@ $$
 $H_o: \sigma_{1}^2 = \sigma_{2}^2 \\
 H_a: \sigma_{1}^2 \neq \sigma_{2}^2$
 
-### ANOVA (F-Test)
+## ANOVA (F-Test)
 
 ([Video](https://www.youtube.com/watch?v=EFdlFoHI_0I&list=PL1328115D3D8A2566&index=64))
 
@@ -141,7 +141,7 @@ Large F means that the variation in data is mainly due to the differences **betw
     - **Note:** Non-parametric alternative to the independent samples t-test.
     
 
-### t-test using linear regression
+## t-test using linear regression
 
 Example: I found out the size of control mice and mutant mice. Now I want to know if there is statistically significant difference between the size of control and mutant mice. I want to use linear regression.
 
@@ -182,7 +182,7 @@ model = sm.OLS(y, X).fit()
 print(model.summary())
 ```
 
-![OLS regression summary](statistical_tests/ols_regression_summary.png)
+![OLS regression summary](resources/statistical_tests/ols_regression_summary.png)
 
 ## Binomial test
 
